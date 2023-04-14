@@ -1,52 +1,131 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ejercicio_3</title>
+    <style>
+        table {
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+
+        thead th,
+        thead td,
+        tbody th,
+        tbody td {
+            border: solid 1px #649801;
+        }
+
+        td,
+        th {
+            padding: 10px;
+            text-align: center;
+            vertical-align: middle;
+        }
+
+        thead>tr>th:first-of-type {
+            background: #ffffff;
+            border: none;
+        }
+
+        th {
+            background: linear-gradient(to right, #a8fc04, #58fc54);
+            color: #ffffff;
+            text-shadow: 2px 2px 2px #026c05;
+        }
+
+        td {
+            background-color: #f0fcec;
+        }
+
+        thead th {
+            border-radius: 12px 12px 0 0;
+        }
+
+        tbody th {
+            border-radius: 10px 0 0 10px;
+        }
+
+        tbody img {
+            width: 40%;
+        }
+
+        tfoot td {
+            background-color: #ffffff;
+            font-weight: bold;
+            font-size: 1.7em;
+            color: #3b9111;
+            text-shadow: 2px 2px 2px #000000;
+        }
+
+        tfoot td:first-of-type {
+            color: #000000;
+            text-shadow: none;
+            font-size: 1em;
+        }
+    </style>
 </head>
+
 <body>
-    <table border="1">
+    <table>
         <thead>
             <tr>
-                <th rowspan="2">Alumno</th>
-                <td colspan="3">Notas</td>
-            </tr>
-            <tr>
-                <td>Teoría</td>
-                <td>Práctica</td>
-                <td>Final</td>
+                <th></th>
+                <th>Inicial</th>
+                <th>Media</th>
+                <th>Negocios</th>
+                <th>Deluxe</th>
             </tr>
         </thead>
         <tbody>
             <tr>
-                <td>Margarita Flores</td>
+                <th>Espacio</th>
+                <td>512 MB</td>
+                <td>1 GB</td>
+                <td>2 GB</td>
+                <td>4 GB</td>
+            </tr>
+            <tr>
+                <th>Ancho de banda</th>
+                <td>50 GB</td>
+                <td>100 GB</td>
+                <td>150 GB</td>
+                <td>Ilimitado</td>
+            </tr>
+            <tr>
+                <th>Base de datos MariaBD</th>
+                <td>Ilimitado</td>
+                <td>Ilimitado</td>
+                <td>Ilimitado</td>
+                <td>Ilimitado</td>
+            </tr>
+            <tr>
+                <th>Base de datos MySQL</th>
+                <td>1</td>
                 <td>5</td>
-                <td>7</td>
-                <td>6</td>
+                <td>10</td>
+                <td>Ilimitado</td>
             </tr>
             <tr>
-                <td>Juan Martín</td>
-                <td>8</td>
-                <td>6</td>
-                <td>7</td>
-            </tr>
-            <tr>
-                <td>Pedro López</td>
-                <td>6</td>
-                <td>6</td>
-                <td>6</td>
+                <th>PHP</th>
+                <td><img src="viñeta.png" alt="viñeta" /></td>
+                <td><img src="viñeta.png" alt="viñeta" /></td>
+                <td><img src="viñeta.png" alt="viñeta" /></td>
+                <td><img src="viñeta.png" alt="viñeta" /></td>
             </tr>
         </tbody>
         <tfoot>
             <tr>
-                <td>Promedio</td>
-                <td>6,33</td>
-                <td>6,33</td>
-                <td>6,33</td>
+                <td>Precio por mes</td>
+                <td>2,99€</td>
+                <td>4,99€</td>
+                <td>6,99€</td>
+                <td>19,99€</td>
             </tr>
         </tfoot>
     </table>
 </body>
+
 </html>
