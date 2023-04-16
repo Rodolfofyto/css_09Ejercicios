@@ -142,7 +142,7 @@ main section label:nth-of-type(2) {
     padding-top: 0;
 }
 
-main section label:first-of-type{
+main section label:first-of-type {
     margin-bottom: 0;
     font-weight: 550;
 }
