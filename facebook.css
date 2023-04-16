@@ -87,10 +87,20 @@ main section figure {
 
 main h2 {
     margin-bottom: 2%;
+    font-weight: bold;
+    font-size: 2em;
 }
 
-main p {
-    font-size: 2vw;
+main section:first-of-type p {
+    font-size: 1.3em;
+    margin-bottom: 4%;
+    font-weight: bold;
+    color: #0e3655;
+    line-height: 30px;
+}
+
+main section:nth-of-type(2) p {
+    font-size: 1.3em;
     margin-bottom: 4%;
 }
 
@@ -103,18 +113,18 @@ main label {
 
 main input {
     margin-bottom: 2%;
-    padding: 1% 1% 1% 0.5%;
+    padding: 2% 1% 2% 0.5%;
     border: solid 1px #c6c5c5;
     border-radius: 5px;
-    width: 275px;
+    width: 380px;
 }
 
 main input:first-of-type {
-    width: 130px;
+    width: 182px;
 }
 
 main input:nth-child(2) {
-    width: 130px;
+    width: 182px;
 }
 
 main section input:nth-of-type(6) {
@@ -132,11 +142,33 @@ main section label:nth-of-type(2) {
     padding-top: 0;
 }
 
+main section label:first-of-type{
+    margin-bottom: 0;
+    font-weight: 550;
+}
+
+main section label:nth-of-type(5) {
+    font-size: 0.8em;
+    color: #656464;
+}
+
+main section label:nth-of-type(6) {
+    font-size: 0.8em;
+    font-weight: bold;
+    line-height: 20px;
+    color: #7b7878;
+}
+
+input::placeholder {
+    font-size: 1.3em;
+    font-weight: 700;
+    color: #b4b4b4;
+}
 
 main select {
     margin-bottom: 2%;
-    padding-bottom: 1%;
-    padding-top: 1%;
+    padding: 1.5% 1%;
+    font-weight: bold;
     display: inline-block;
     border: solid 1px #c6c5c5;
     box-shadow: 1px 1px 1px rgb(203, 208, 205);
@@ -146,11 +178,11 @@ main select {
 
 hr {
     margin-bottom: 2%;
+    width: 67%;
 }
 
 main button {
     font-family: SFProDisplay-Bold, Helvetica, Arial, sans-serif;
-    margin-left: 18.4%;
     padding: 1% 7%;
     background-color: #64a153;
     color: #f7fef4;
@@ -159,4 +191,5 @@ main button {
     margin-bottom: 3%;
     box-shadow: 1px 1px 1px rgb(203, 208, 205);
     border-radius: 5px;
+    border-color: #97c795;
 }
