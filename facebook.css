@@ -13,6 +13,7 @@ figure>img {
 
 a {
     text-decoration: none;
+    color: #033db3;
 }
 
 /* Estilos del Header*/
@@ -26,7 +27,7 @@ header {
 }
 
 header h1 {
-    margin: 2% 5% 0 10%;
+    margin: 2% 5% 0 3%;
     padding-bottom: 1%;
     font-size: 3vw;
     color: #ffffff;
@@ -51,10 +52,16 @@ header section form label:first-of-type {
 
 header section form label:nth-of-type(2) {
     color: #d5d5d5;
+    vertical-align: middle;
 }
 
 header input:first-of-type {
     margin: 2% 0;
+}
+
+header input[type="checkbox"]{
+    display: inline-block;
+    vertical-align: middle;
 }
 
 header button {
@@ -79,10 +86,11 @@ main {
 
 main section {
     flex: 1;
+    margin-right: 3%;
 }
 
 main section figure {
-    width: 80%;
+    width: 100%;
 }
 
 main h2 {
@@ -92,11 +100,11 @@ main h2 {
 }
 
 main section:first-of-type p {
-    font-size: 1.3em;
-    margin-bottom: 4%;
+    font-size: 1.4em;
+    margin: 5% 0% 4% 0;
     font-weight: bold;
     color: #0e3655;
-    line-height: 30px;
+    line-height: 40px;
 }
 
 main section:nth-of-type(2) p {
@@ -128,12 +136,16 @@ main input:nth-child(2) {
 }
 
 main section input:nth-of-type(6) {
-    width: 15px;
+    width: 10px;
+    display: inline-block;
+    vertical-align: middle;
 }
 
 main section input:nth-of-type(7) {
-    width: 15px;
+    width: 10px;
     margin-left: 2%;
+    display: inline-block;
+    vertical-align: middle;
 }
 
 main section label:nth-of-type(2) {
@@ -153,7 +165,7 @@ main section label:nth-of-type(5) {
 }
 
 main section label:nth-of-type(6) {
-    font-size: 0.8em;
+    font-size: 0.9em;
     font-weight: bold;
     line-height: 20px;
     color: #7b7878;
@@ -172,8 +184,6 @@ main select {
     display: inline-block;
     border: solid 1px #c6c5c5;
     box-shadow: 1px 1px 1px rgb(203, 208, 205);
-    border-radius: 5px;
-    background-image: linear-gradient(to bottom, #c4c6cc, #ffffff);
 }
 
 hr {
