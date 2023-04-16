@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: linear-gradient(to bottom, #ffffff, rgba(204, 213, 230, 255));
+}
+figure>img {
+    width: 100%;
+}
+
+/* Estilos del Header*/
+
+header {
+    font-family: Helvetica, Arial, sans-serif;
+    display: flex;
+    background-color: #3b5893;
+    align-items: center;
+    box-shadow: 1px 0px 1px 1px #333333;
+}
+
+header h1 {
+    margin: 2% 5% 0 10%;
+    padding-bottom: 1%;
+    font-size: 3vw;
+    color: #ffffff;
+    flex: 1;
+}
+
+header section {
+    display: flex;
+    flex: 1;
+    align-items: center;
+    letter-spacing: -0.5px;
+    font-size: 0.8em;
+}
+
+header section form {
+    margin-left: 5%;
+}
+
+header section form label:first-of-type {
+    color: #ffffff;
+}
+
+header section form label:nth-of-type(2) {
+    color: #d5d5d5;
+}
+
+header input:first-of-type {
+    margin: 2% 0;
+}
+
+header button {
+    margin-left: 4%;
+    background-color: #5776a5;
+    color: #ffffff;
+    height: 18%;
+    padding: 0.5% 1%;
+    border: solid 1px rgb(89, 89, 89);
+    font-weight: bold;
+    box-shadow: 1px 1px 1px rgb(34, 34, 34);
+}
+
+
+/* Estilos del Main*/
+main {
+    padding: 3%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    letter-spacing: -1.5px;
+    display: flex;
+}
+main section{
+    flex: 1;
+}
+
+main section figure{
+    width: 80%;
+}
+
+main h2 {
+    margin-bottom: 2%;
+}
+
+main p {
+    font-size: 2vw;
+    margin-bottom: 4%;
+}
+
+main label {
+    margin-bottom: 2%;
+    padding-bottom: 1%;
+    padding-top: 1%;
+    display: inline-block;
+}
+
+main input {
+    margin-bottom: 2%;
+    padding: 1% 1% 1% 0.5%;
+    display: inline-block;
+    border: solid 1px #c6c5c5;
+    border-radius: 5px;
+    width: 275px;
+}
+
+main input:first-of-type{
+    width: 130px;
+}
+main input:nth-child(2){
+    width: 130px;
+}
+
+main select {
+    margin-bottom: 2%;
+    padding-bottom: 1%;
+    padding-top: 1%;
+    display: inline-block;
+    border: solid 1px #c6c5c5;
+}
+
+main button {
+    font-family: SFProDisplay-Bold, Helvetica, Arial, sans-serif;
+    margin-left: 18.4%;
+    padding: 1%;
+    background-color: #008000;
+    color: #ffffff;
+    font-weight: bold;
+}
