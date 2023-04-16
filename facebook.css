@@ -59,7 +59,7 @@ header input:first-of-type {
     margin: 2% 0;
 }
 
-header input[type="checkbox"]{
+header input[type="checkbox"] {
     display: inline-block;
     vertical-align: middle;
 }
