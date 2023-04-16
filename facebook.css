@@ -2,11 +2,17 @@
     margin: 0;
     padding: 0;
 }
-body{
+
+body {
     background-image: linear-gradient(to bottom, #ffffff, rgba(204, 213, 230, 255));
 }
+
 figure>img {
     width: 100%;
+}
+
+a{
+    text-decoration: none;
 }
 
 /* Estilos del Header*/
@@ -67,14 +73,15 @@ header button {
 main {
     padding: 3%;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    letter-spacing: -1.5px;
+    letter-spacing: -1.0px;
     display: flex;
 }
-main section{
+
+main section {
     flex: 1;
 }
 
-main section figure{
+main section figure {
     width: 80%;
 }
 
@@ -97,18 +104,34 @@ main label {
 main input {
     margin-bottom: 2%;
     padding: 1% 1% 1% 0.5%;
-    display: inline-block;
     border: solid 1px #c6c5c5;
     border-radius: 5px;
     width: 275px;
 }
 
-main input:first-of-type{
+main input:first-of-type {
     width: 130px;
 }
-main input:nth-child(2){
+
+main input:nth-child(2) {
     width: 130px;
 }
+
+main section input:nth-of-type(6) {
+    width: 15px;
+}
+
+main section input:nth-of-type(7) {
+    width:15px;
+    margin-left: 2%;
+}
+
+main section label:nth-of-type(2){
+   margin-left: 3%;
+   font-size: 0.8em;
+   padding-top:0;
+}
+   
 
 main select {
     margin-bottom: 2%;
@@ -121,8 +144,12 @@ main select {
 main button {
     font-family: SFProDisplay-Bold, Helvetica, Arial, sans-serif;
     margin-left: 18.4%;
-    padding: 1%;
-    background-color: #008000;
-    color: #ffffff;
+    padding: 1% 7%;
+    background-color: #64a153;
+    color:#f7fef4;
     font-weight: bold;
+    font-size: 1.3em;
+    margin-bottom: 3%;
+    box-shadow: 1px 1px 1px rgb(203, 208, 205);
+    border-radius: 5px;
 }
