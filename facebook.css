@@ -19,7 +19,7 @@ a {
 /* Estilos del Header*/
 
 header {
-    font-family:'Freight Sans Bold', helvetica, arial, sans-serif;
+    font-family: 'Freight Sans Bold', helvetica, arial, sans-serif;
     display: flex;
     background-color: #3b5893;
     align-items: center;
